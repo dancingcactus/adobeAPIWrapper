@@ -24,3 +24,9 @@ Thats it. The config function only needs to be called once per session unless yo
 The api is also smart enough to figure out which endpoint you should be using so you don't have to enter an endpoint. 
 
 
+Files 
+=====
+analyticsAPI.php - Contains the main class. This is the file you will want to use
+main.php - Sample of how to use the wrapper
+credentials.inc - where you set the username and password
+/tests - a set of unit tests to be run by phpunit
